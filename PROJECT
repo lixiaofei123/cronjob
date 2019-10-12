@@ -1,0 +1,7 @@
+version: "2"
+domain: isphere.geovis.com.cn
+repo: github.com/lixiaofei326/cronjob
+resources:
+- group: batch
+  version: v1
+  kind: CronJob
